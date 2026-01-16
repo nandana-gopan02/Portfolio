@@ -23,11 +23,14 @@ function About() {
         <h1 className='font-bold text-2xl pt-15'>Tech Stacks & Skills</h1>
         <div className="pt-10 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-8 place-items-center ">
             <div className="w-20 h-20 m-3 flex items-center justify-center">
+                <div className='grid place-items-center'>
                 <img
                 src={html}
                 alt="HTML"
                 className="w-full h-full object-contain"
                 />
+                <p>HTML</p>
+                </div>
             </div>
 
             <div className="w-20 h-20 m-3 flex items-center justify-center">

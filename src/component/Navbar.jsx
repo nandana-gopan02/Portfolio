@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/logo1.png'
 import { Link } from 'react-scroll'
+import resume from '../assets/Resume.pdf'
 
 function Navbar() {
   return (
@@ -30,7 +31,8 @@ function Navbar() {
         <Link to='contact'  className='cursor-pointer hover:underline' smooth duration={500}>Contact</Link>
       </div>
       <div>
-            <button className='bg-white text-black px-6 py-2 rounded-full'>Resume</button> 
+            <a href={resume} target='_blank' className='bg-white text-black px-6 py-2 rounded-full'>Resume</a>
+            {/* <button className='bg-white text-black px-6 py-2 rounded-full'>Resume</button>  */}
       </div>
     </nav>
     </div>
