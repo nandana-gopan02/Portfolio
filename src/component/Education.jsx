@@ -43,7 +43,7 @@ function Education() {
   
 
   <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-8'>
-    <div className='w-80 md:w-96 lg:w-[26rem] h-62 p-6 rounded-xl border-black/10 border hover:border-black hover:-translate-y-1 transition-all'>
+    <div className='p-6 rounded-xl bg-white hover:bg-zinc-200 border-black/10 border hover:border-black hover:-translate-y-1 transition-all'>
         <h3 className='text-xl font-bold mb-4'>Education</h3>
         <ul className='list-disc list-inside text-gray-900 space-y-2'>
             <li>
@@ -55,7 +55,7 @@ function Education() {
         </ul>
     </div>
 
-    <div className='w-80 md:w-96 lg:w-[26rem] h-62 p-6 rounded-xl border-black/10 border  hover:border-black hover:-translate-y-1 transition-all'>
+    <div className='p-6 rounded-xl bg-white hover:bg-zinc-200 border-black/10 border  hover:border-black hover:-translate-y-1 transition-all'>
         <h3 className='text-xl font-bold mb-4'>Work Experience</h3>
         <strong>Internship </strong> - Kerala Infrastructure and Technology for Education(KITE)
         <ul className='list-disc list-inside space-y-1'>
