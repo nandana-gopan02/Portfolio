@@ -9,7 +9,7 @@ function Home() {
   return (
   <section className='min-h-[calc(100vh-6rem)]  flex items-center justify-center pt-40'> 
     <div className='text-center max-w-2xl'>
-      <h1 className='font-bold text-4xl md:text-6xl pb-6'>Hi,I'm Nandana Gopan</h1>
+      <h1 className='font-bold text-3xl md:text-6xl pb-6'>Hi,I'm Nandana Gopan</h1>
  
          <TypeAnimation 
       sequence={[
@@ -25,9 +25,8 @@ function Home() {
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: '1.5em', display: 'inline-block' }}
       repeat={Infinity}
-      className='font-medium text-gray-700'
+      className='inline-block font-medium text-gray-700 text-base sm:text-lg md:text-xl lg:text-2xl'
     />
     <div className='flex justify-center items-center pt-7 gap-10'>
       <a href="mailto:nandanasreepillai@gmail.com"  target="_blank" rel="noreferrer" className="hover:scale-110 transition">

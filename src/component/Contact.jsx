@@ -25,11 +25,11 @@ function Contact() {
 
   return (
     <div className='pt-24 pb-5 px-4'>
-     <h1 className='font-bold text-3xl'>Contact Me</h1>
+     <h1 className='font-bold text-2xl md:text-3xl'>Contact Me</h1>
      <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
-      <div className='space-y-9'>
-        <h1 className='text-xl font-semibold pt-8 md:pt-15'>Let's Talk</h1>
-        <p className='text-zinc-600 leading-relaxed'>I'm open to discussing web development projects or parternship opportunities.</p>
+      <div className='space-y-6 md:space-y-9'>
+        <h1 className='text-xl font-semibold pt-7 md:pt-15'>Let's Talk</h1>
+        <p className='text-zinc-600 leading-relaxed '>I'm open to discussing web development projects or parternship opportunities.</p>
         <div className="space-y-2 text-zinc-700">
         <p>
           <span className="font-medium">Email:</span>{" "}
@@ -42,7 +42,7 @@ function Contact() {
           <span className="font-medium">Location:</span> Kerala, India
         </p>
         </div>
-        <div className='flex  gap-7'>
+        <div className='flex gap-7'>
               <a href="https://www.linkedin.com/in/nandanagopan/"  target="_blank" rel="noreferrer" className="hover:scale-110 transition">
                 <img src={linkedin} alt="" className='w-8 h-8' />
               </a>
@@ -54,7 +54,7 @@ function Contact() {
       </div>
 
       <div className=''>
-        <form action="" className='space-y-3' onSubmit={handleSubmit}>
+        <form action="" className='space-y-5' onSubmit={handleSubmit}>
           <label>Your Name</label><br />
           <input type="text"
                  id='name'
@@ -85,7 +85,7 @@ function Contact() {
                     required 
                     className='w-full h-full bg-zinc-200 hover:bg-zinc-300 rounded-xl px-4 py-3 transition focus:outline-none '></textarea><br />
 
-          <button type="submit" className='mt-4 border md:border border-zinc-900 py-2 px-4 rounded-full cursor-pointer bg-linear-to-r from-zinc-500 via-stone-600 to-zinc-900 text-white hover:opacity-90 hover:-translate-y-0.5 transition-all'>SEND</button>
+          <button type="submit" className='mt-4 border md:border border-zinc-900 py-1 md:py-2 px-3 md:px-4 rounded-full cursor-pointer bg-linear-to-r from-zinc-500 via-stone-600 to-zinc-900 text-white hover:opacity-90 hover:-translate-y-0.5 transition-all'>SEND</button>
         </form>
       </div>
      </div>

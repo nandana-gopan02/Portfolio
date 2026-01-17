@@ -13,22 +13,19 @@ import mongo from '../assets/mongodb.svg'
 function About() {
   return (
     <div className=' pt-24 pl-4 '>
-        <h1 className='font-bold text-3xl'>About Me</h1>
+        <h1 className='font-bold text-2xl md:text-3xl'>About Me</h1>
         <p className='pt-4 text-lg text-justify leading-loose'>I am a motivated Full Stack Web Developer and MCA graduate with a strong foundation in computer science and hands-on experience building modern web applications. I specialize in developing responsive, scalable, and user-friendly solutions using technologies such as JavaScript, React, Node.js, Python and MongoDB.
             <br />
             I enjoy building clean, high-quality web applications that balance performance and user experience. With strong problem-solving skills and a passion for continuous learning, I love turning complex ideas into practical solutions and contributing effectively to real-world projects.
         </p>
-        <h1 className='font-bold text-2xl pt-18'>Tech Stacks & Skills</h1>
+        <h1 className='font-bold text-xl md:text-2xl pt-18'>Tech Stacks & Skills</h1>
         <div className="pt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-8 place-items-center ">
             <div className="w-20 h-20 m-3 flex items-center justify-center">
-                <div className='grid place-items-center'>
                 <img
                 src={html}
                 alt="HTML"
                 className="w-full h-full object-contain"
-                />
-                <p>HTML</p>
-                </div>
+                />  
             </div>
 
             <div className="w-20 h-20 m-3 flex items-center justify-center">
@@ -109,3 +106,16 @@ function About() {
 }
 
 export default About
+
+
+
+            // <div className="w-20 h-20 m-3 flex items-center justify-center">
+            //     <div className='grid place-items-center'>
+            //     <img
+            //     src={html}
+            //     alt="HTML"
+            //     className="w-full h-full object-contain"
+            //     />
+            //     <p>HTML</p>
+            //     </div>
+            // </div>
