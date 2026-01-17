@@ -10,14 +10,14 @@ function App() {
   
 
   return (
-    <>
+    <div className=''>
     <Navbar/>
     <section id="/"><Home/></section>
     <section id="about"><About/></section>
     <section id="education"><Education/></section>
     <section id="project"><Project/></section>
     <section id="contact"><Contact/></section>
-    </>
+    </div>
   )
 }
 

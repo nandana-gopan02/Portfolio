@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import emailjs from "@emailjs/browser";
+import linkedin from '../assets/linkedin.png';
+import github from '../assets/github.png'
+import mail from '../assets/mail.png'
 
 function Contact() {
 
@@ -21,8 +24,8 @@ function Contact() {
   }
 
   return (
-    <div className='pt-12 px-4'>
-     <h1 className='font-bold text-2xl'>Contact Me</h1>
+    <div className='pt-24 pb-5 px-4'>
+     <h1 className='font-bold text-3xl'>Contact Me</h1>
      <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
       <div className='space-y-9'>
         <h1 className='text-xl font-semibold pt-8 md:pt-15'>Let's Talk</h1>
@@ -39,6 +42,15 @@ function Contact() {
           <span className="font-medium">Location:</span> Kerala, India
         </p>
         </div>
+        <div className='flex  gap-7'>
+              <a href="https://www.linkedin.com/in/nandanagopan/"  target="_blank" rel="noreferrer" className="hover:scale-110 transition">
+                <img src={linkedin} alt="" className='w-8 h-8' />
+              </a>
+              <a href="https://github.com/nandana-gopan02"  target="_blank" rel="noreferrer" className="hover:scale-110 transition">
+                <img src={github} alt="" className='w-8 h-8' />
+              </a>
+        
+            </div>
       </div>
 
       <div className=''>
