@@ -14,7 +14,7 @@ function App() {
     //   <video className='fixed inset-0 w-fullh-full object-cover  -z-10' src={pattern}/>
       
     
-    <div className='pl-5 md:pl-23 pr-5 md:pr-23'>
+    <div className='pl-2 md:pl-23 pr-5 md:pr-23'>
     <Navbar/>
     <section id="/"><Home/></section>
     <section id="about"><About/></section>

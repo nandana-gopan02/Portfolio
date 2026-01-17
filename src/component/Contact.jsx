@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import emailjs from "@emailjs/browser";
 import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png'
-import mail from '../assets/mail.png'
+
 
 function Contact() {
 

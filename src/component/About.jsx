@@ -9,6 +9,9 @@ import sql from '../assets/sql.png'
 import git from '../assets/github.png'
 import python from '../assets/python.png'
 import mongo from '../assets/mongodb.svg'
+import tailwind from '../assets/Tailwind.png'
+import express from '../assets/Express.png'
+import postman from '../assets/Postman.png'
 
 function About() {
   return (
@@ -54,6 +57,14 @@ function About() {
 
             <div className="w-20 h-20 m-3 flex items-center justify-center">
                 <img
+                src={tailwind}
+                alt="Tailwind"
+                className="w-full h-full object-contain"
+                />
+            </div>
+
+            <div className="w-20 h-20 m-3 flex items-center justify-center">
+                <img
                 src={react}
                 alt="React"
                 className="w-full h-full object-contain"
@@ -64,6 +75,14 @@ function About() {
                 <img
                 src={node}
                 alt="Node"
+                className="w-full h-full object-contain"
+                />
+            </div>
+
+            <div className="w-20 h-20 m-3 flex items-center justify-center">
+                <img
+                src={express}
+                alt="Express"
                 className="w-full h-full object-contain"
                 />
             </div>
@@ -96,6 +115,14 @@ function About() {
                 <img
                 src={git}
                 alt="Git"
+                className="w-full h-full object-contain"
+                />
+            </div>
+
+            <div className="w-20 h-20 m-3 flex items-center justify-center">
+                <img
+                src={postman}
+                alt="Postman"
                 className="w-full h-full object-contain"
                 />
             </div>
