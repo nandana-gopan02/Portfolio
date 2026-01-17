@@ -7,7 +7,7 @@ import resume from '../assets/Resume.pdf'
 
 function Home() {
   return (
-  <section className='min-h-screen flex items-center justify-center px-4'> 
+  <section className='min-h-[calc(100vh-6rem)]  flex items-center justify-center pt-40'> 
     <div className='text-center max-w-2xl'>
       <h1 className='font-bold text-4xl md:text-6xl pb-6'>Hi,I'm Nandana Gopan</h1>
  

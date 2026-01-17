@@ -12,7 +12,7 @@ import mongo from '../assets/mongodb.svg'
 
 function About() {
   return (
-    <div className=' pt-24 pl-4'>
+    <div className=' pt-24 pl-4 '>
         <h1 className='font-bold text-3xl'>About Me</h1>
         <p className='pt-4 text-lg text-justify leading-loose'>I am a motivated Full Stack Web Developer and MCA graduate with a strong foundation in computer science and hands-on experience building modern web applications. I specialize in developing responsive, scalable, and user-friendly solutions using technologies such as JavaScript, React, Node.js, Python and MongoDB.
             <br />
