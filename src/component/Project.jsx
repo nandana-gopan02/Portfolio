@@ -30,7 +30,7 @@ function Project() {
     <h2 class="text-xl font-bold">Portfolio</h2>
     <p className='pt-2 text-m text-justify'>A personal portfolio website to showcase projects and skills.</p>
     <div className='mt-6'>
-    <a href="https://github.com/nandana-gopan02/Movie-App" target='_blank' rel='noopener noreferrer' className='mt-6 border md:border border-zinc-900 py-1 md:py-2 px-3 md:px-4 rounded-full cursor-pointer bg-linear-to-r from-zinc-500 via-stone-600 to-zinc-900 text-white hover:opacity-90 hover:-translate-y-0.5 transition-all'>GitHub</a>
+    <a href="https://github.com/nandana-gopan02/Portfolio" target='_blank' rel='noopener noreferrer' className='mt-6 border md:border border-zinc-900 py-1 md:py-2 px-3 md:px-4 rounded-full cursor-pointer bg-linear-to-r from-zinc-500 via-stone-600 to-zinc-900 text-white hover:opacity-90 hover:-translate-y-0.5 transition-all'>GitHub</a>
     </div>
   </div>
 
@@ -38,7 +38,7 @@ function Project() {
     <h2 class="text-xl font-bold">To-Do App</h2>
     <p className='pt-2 text-m text-justify'>Developed a To-Do application using React that allows users to add, delete, and mark tasks as completed. Implemented localStorage to persist tasks, ensuring data is retained across sessions.</p>
     <div className='mt-6'>
-    <a href="https://github.com/nandana-gopan02/Movie-App" target='_blank' rel='noopener noreferrer' className='mt-6 border md:border border-zinc-900 py-1 md:py-2 px-3 md:px-4 rounded-full cursor-pointer bg-linear-to-r from-zinc-500 via-stone-600 to-zinc-900 text-white hover:opacity-90 hover:-translate-y-0.5 transition-all'>GitHub</a>
+    <a href="https://github.com/nandana-gopan02/ToDo-List" target='_blank' rel='noopener noreferrer' className='mt-6 border md:border border-zinc-900 py-1 md:py-2 px-3 md:px-4 rounded-full cursor-pointer bg-linear-to-r from-zinc-500 via-stone-600 to-zinc-900 text-white hover:opacity-90 hover:-translate-y-0.5 transition-all'>GitHub</a>
     </div>
   </div>
 
